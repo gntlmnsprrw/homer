@@ -56,6 +56,16 @@ services:
         icon: "fas fa-music"
         subtitle: "Music Library Management"
         url: "https://lidarr.oriondev.tech:8686"
+  - name: "Configuration Management"
+    items:
+      - name: "Guacamole"
+        icon: "fas fa-desktop"
+        subtitle: "RDP & VNC jumpbox"
+        url: "http://guac.twiz.lab"
+      - name: "Ansible AWX Tower"
+        icon: "fab fa-adn"
+        subtitle: "Ansible Web Management"
+        url: "http://awx.twiz.lab"
   - name: "Orion Stuff"
     items:
       - name: "Email"
